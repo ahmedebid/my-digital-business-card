@@ -1,0 +1,106 @@
+/* -------------------------------------------- */
+/* Reset                                        */
+/* -------------------------------------------- */
+
+/* Source: https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for buttons */
+button {
+  font: inherit;
+}
+
+/* -------------------------------------------- */
+/* General Styles                               */
+/* -------------------------------------------- */
+
+body {
+    background-color: hsl(227 11% 15%);
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0 0% 96%);
+    width: 317px;
+    border-radius: 10px;
+}
+
+/* -------------------------------------------- */
+/* Specific Styles                               */
+/* -------------------------------------------- */
+
+/* Info Section (Header) */
+
+.info-sec {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* About Section */
+
+.about-sec {
+    margin: 25px 35px 0px;
+    background-color: hsl(0 0% 96%);
+}
+
+/* Interests Section */
+
+.interests-sec {
+    margin: 25px 35px 50px;
+    background-color: hsl(0 0% 96%);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(255 5% 84%);
+    padding: 20px 70px;
+    border-radius: 0px 0px 10px 10px;
+}
